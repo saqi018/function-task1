@@ -52,19 +52,4 @@ generateNUmber();
 
 
 
-  var abc = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
-
-function displayAlphabets(){
-  var randomAlphabets = Math.floor(Math.random() * abc.length);
-   return abc[randomAlphabets];
   
-
-}
-
-function display(){
-  var alphabets = displayAlphabets();
-  console.log(abc);
-}
-
-
-display();
